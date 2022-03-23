@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SeleniumOnline">
+    <test name="Kurs" >
+
+        <classes>
+            <class name="test.AccountPageTest"></class>
+            <class name="test.AddressPageTest"></class>
+            <class name="test.DeliveryAddressDetailsPageTest"></class>
+            <class name="test.LoginPageTest"></class>
+            <class name="test.OrderConfirmedPageTest"></class>
+            <class name="test.ProductListPageTest"></class>
+
+        </classes>
+    </test>
+</suite>
